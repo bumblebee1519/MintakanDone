@@ -24,7 +24,7 @@ a{
   color: #eee;
 }
 p{
-  font-size: 1.8rem;
+  font-size: 1.4rem;
   font-weight: 400;
   letter-spacing: .1rem;
 }
@@ -477,14 +477,14 @@ li{
 /*Start media queries*/
 @media screen and (max-width: 768px){
   body{
-      background: url("images/cielorosa2.png") no-repeat center fixed;
+      background-image: linear-gradient(to top, #ffcbd8, #c06d85);
       background-size: cover;
   }
   .landing-text h1{
-    font-size: 12rem;
+    font-size: 8rem;
   }
   .landing-text h6{
-    font-size: 1.7rem;
+    font-size: 1.3rem;
   }
   .nav-list{
     flex-direction: column;
@@ -496,7 +496,7 @@ li{
     font-size: 4.5rem;
   }
   .about-heading h1{
-    font-size: 8rem;
+    font-size: 7rem;
   }
   .section-heading h1{
     font-size: 3rem;
@@ -525,7 +525,7 @@ li{
     font-size: 6rem;
   }
   .landing-text h6{
-    font-size: 1.4rem;
+    font-size: 1.2rem;
   }
   .nav-link{
     font-size: 3.5rem;
@@ -546,9 +546,6 @@ li{
   .portfolio-description{
     margin: 0;
     order: 2;
-  }
-  form{
-    width: 100%;
   }
   .up{
     right: 2rem;
