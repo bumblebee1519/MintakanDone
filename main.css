@@ -478,7 +478,7 @@ li{
 /*Start media queries*/
 @@media screen and (max-width: 850px) {
   body{
-      background-image: linear-gradient(to top, #ffcbd8, #c06d85);
+      background-image: linear-gradient(to left, #ffcbd8, #c06d85);
       background-size: cover;
   }
 }
