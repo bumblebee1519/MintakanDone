@@ -484,7 +484,7 @@ li{
 }
 @media screen and (max-width: 768px){
   body{
-      background-image: linear-gradient(to top, #ffcbd8, #c06d85);
+      background-image: linear-gradient(to left, #ffcbd8, #c06d85);
       background-size: cover;
   }
   .landing-text h1{
