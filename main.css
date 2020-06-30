@@ -477,7 +477,7 @@ li{
 /*Start media queries*/
 @media screen and (max-width: 768px){
   body{
-      background: url("images/cielorosa.png") no-repeat center fixed;
+      background: url("images/cielorosa2.png") no-repeat center fixed;
       background-size: cover;
   }
   .landing-text h1{
