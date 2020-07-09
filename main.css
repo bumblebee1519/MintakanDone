@@ -478,16 +478,14 @@ li{
 /*Start media queries*/
 @@media screen and (max-width: 850px) {
   body{
-      background-image: url("images/cielorosa2");
-      background-repeat: no-repeat;
+      background-image: url("images/cielorosa");
       /* background-image: linear-gradient(to left, #ffcbd8, #c06d85); */
       background-size: contain;
   }
 }
 @media screen and (max-width: 768px){
   body{
-      background-image: url("images/cielorosa2.png");
-      background-repeat: no-repeat;
+      background-image: url("images/cielorosa.png");
       /* background-image: linear-gradient(to left, #ffcbd8, #c06d85); */
       background-size: contain;
   }
