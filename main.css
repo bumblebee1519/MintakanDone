@@ -480,14 +480,14 @@ li{
   body{
       background: url("images/cielorosa3.png") no-repeat center fixed;
       /* background-image: linear-gradient(to left, #ffcbd8, #c06d85); */
-      background-size: auto;
+      background-size: cover;
   }
 }
 @media screen and (max-width: 768px){
   body{
       background: url("images/cielorosa.png") no-repeat center fixed;
   /* background-image: linear-gradient(to left, #ffcbd8, #c06d85); */
-      background-size: auto;
+      background-size: cover;
   }
   .landing-text h1{
     font-size: 8rem;
