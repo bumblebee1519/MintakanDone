@@ -478,16 +478,20 @@ li{
 /*Start media queries*/
 @@media screen and (max-width: 850px) {
   body{
-      background-image: url("images/cielorosa3.png");
+      background-image: url("images/cielorosa3.png") no-repeat;
       /* background-image: linear-gradient(to left, #ffcbd8, #c06d85); */
       background-size: cover;
+      background-position: center center;
+      background-attachment: fixed;
   }
 }
 @media screen and (max-width: 768px){
   body{
-      background-image: url("images/cielorosa3.png");
+      background-image: url("images/cielorosa3.png") no-repeat;
       /* background-image: linear-gradient(to left, #ffcbd8, #c06d85); */
       background-size: cover;
+      background-position: center center;
+      background-attachment: fixed;
   }
   .landing-text h1{
     font-size: 8rem;
