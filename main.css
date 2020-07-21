@@ -181,7 +181,7 @@ li{
 }
 .landing-text h6{
   font-size: 2rem;
-  font-weight: 600;
+  font-weight: 300;
 }
 /*End header*/
 
@@ -311,35 +311,6 @@ li{
 .portfolio-description .cta:hover{
   color: #2f67cd;
 }
-
-/* Start Pago */
-.button-container{
-  text-align: center;
-}
-.button{
-  background-color: #c06d85;
-  padding: 1rem 3rem;
-  color: #fff;
-  border-radius: 1rem;
-  border-style: none;
-  border-color: #fff;
-}
-.button-container p{
-  margin-bottom: 1.2rem;
-  font-family: Raleway;
-}
-.button-container a{
-  font-size: 1.5rem;
-}
-.button:hover{
-  background-color: #ffcbd8;
-}
-.button a:hover{
-  color: #c06d85;
-}
-
-/* End Pago */
-
 /*End services*/
 
 /* Start Testimonials */
@@ -478,16 +449,12 @@ li{
 /*Start media queries*/
 @@media screen and (max-width: 850px) {
   body{
-      background: url("images/cielorosa3.png") no-repeat center fixed;
-      /* background-image: linear-gradient(to left, #ffcbd8, #c06d85); */
-      background-size: cover;
-  }
+      background: #c06d85;
+    }
 }
 @media screen and (max-width: 768px){
   body{
-      background: url("images/cielorosa.png") no-repeat center fixed;
-  /* background-image: linear-gradient(to left, #ffcbd8, #c06d85); */
-      background-size: cover;
+    background:#c06d85;
   }
   .landing-text h1{
     font-size: 8rem;
