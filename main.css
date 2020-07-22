@@ -367,7 +367,7 @@ li{
 
 /*Start contact*/
 .contact{
-  background: #ffcbd8;
+  /* background: #ffcbd8; */
 }
 .contact li{
   font-size: 2.5rem;
@@ -408,7 +408,7 @@ li{
 .copyright{
   width: 100%;
   text-align: center;
-  background-color: #ffcbd8;
+  /* background-color: #ffcbd8; */
   padding: 2rem 0;
   position: relative;
 
@@ -455,8 +455,8 @@ li{
   body{
       background-image: linear-gradient(to left, #c396ba, #c06d85);
     }
-    .about .container p{
-      padding: 13%;
+    .profile-img{
+      display: none;
     }
 
 }
@@ -464,8 +464,8 @@ li{
   body{
       background-image: linear-gradient(to left, #c396ba, #c06d85) ;
   }
-  .about .container p{
-    padding: 13%;
+  .profile-img{
+    display: none;
   }
 
   .landing-text h1{
