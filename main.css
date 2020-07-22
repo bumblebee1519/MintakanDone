@@ -455,11 +455,19 @@ li{
   body{
       background-image: linear-gradient(to left, #c396ba, #c06d85);
     }
+    .about .container p{
+      padding: 13%;
+    }
+
 }
 @media screen and (max-width: 768px){
   body{
       background-image: linear-gradient(to left, #c396ba, #c06d85) ;
   }
+  .about .container p{
+    padding: 13%;
+  }
+
   .landing-text h1{
     font-size: 8rem;
   }
