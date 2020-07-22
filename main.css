@@ -16,6 +16,9 @@ body{
   background: url("images/cielorosa.png") no-repeat center fixed;
   background-size: cover;
 }
+body, html{
+  overflow-x: hidden;
+}
 section{
   padding: 6rem 0;
 }
@@ -450,12 +453,12 @@ li{
 /*Start media queries*/
 @@media screen and (max-width: 850px) {
   body{
-      /* background-image: url(images/cielorosa.png); */
+      background-image: linear-gradient(to left, #c396ba, #c06d85);
     }
 }
 @media screen and (max-width: 768px){
   body{
-      /* background-image: url(images/cielorosa.png) ; */
+      background-image: linear-gradient(to left, #c396ba, #c06d85) ;
   }
   .landing-text h1{
     font-size: 8rem;
