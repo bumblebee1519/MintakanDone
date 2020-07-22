@@ -364,7 +364,7 @@ li{
 
 /*Start contact*/
 .contact{
-  background-color: #ffcbd8;
+  background: #ffcbd8;
 }
 .contact li{
   font-size: 2.5rem;
@@ -408,6 +408,7 @@ li{
   background-color: #ffcbd8;
   padding: 2rem 0;
   position: relative;
+
 }
 .up{
   position: absolute;
@@ -449,12 +450,12 @@ li{
 /*Start media queries*/
 @@media screen and (max-width: 850px) {
   body{
-      background: #c06d85;
+      /* background-image: url(images/cielorosa.png); */
     }
 }
 @media screen and (max-width: 768px){
   body{
-    background:#c06d85;
+      /* background-image: url(images/cielorosa.png) ; */
   }
   .landing-text h1{
     font-size: 8rem;
