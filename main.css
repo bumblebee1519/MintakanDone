@@ -458,6 +458,9 @@ li{
     .profile-img{
       display: none;
     }
+    .fa-pinterest{
+      display: none;
+    }
 
 }
 @media screen and (max-width: 768px){
@@ -465,6 +468,9 @@ li{
       background-image: linear-gradient(to left, #c396ba, #c06d85) ;
   }
   .profile-img{
+    display: none;
+  }
+  .fa-pinterest{
     display: none;
   }
 
