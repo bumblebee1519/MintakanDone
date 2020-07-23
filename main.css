@@ -461,7 +461,6 @@ li{
     .fa-pinterest{
       display: none;
     }
-
 }
 @media screen and (max-width: 768px){
   body{
@@ -473,7 +472,6 @@ li{
   .fa-pinterest{
     display: none;
   }
-
   .landing-text h1{
     font-size: 8rem;
   }
