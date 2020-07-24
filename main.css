@@ -27,7 +27,7 @@ a{
   color: #eee;
 }
 p{
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   font-weight: 300;
   letter-spacing: .1rem;
 }
@@ -235,6 +235,9 @@ li{
 .fa-pinterest:hover{
   color: #c8232c;
 }
+.fa-paypal:hover{
+  color: #3b7bbf;
+}
 /*End about*/
 
 /*Start services*/
@@ -317,6 +320,9 @@ li{
 /*End services*/
 
 /* Start Testimonials */
+.comitas{
+  font-weight: 300;
+}
 .slider {
 	width: 95%;
 	margin: auto;
